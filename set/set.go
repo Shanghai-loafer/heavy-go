@@ -2,7 +2,7 @@ package set
 
 type Set[T comparable] map[T]struct{}
 
-// NewSet は空のSetを生成します
+// Of は空のSetを生成します
 func Of[T comparable]() Set[T] {
 	return make(Set[T])
 }

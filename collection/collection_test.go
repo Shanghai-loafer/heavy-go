@@ -1,7 +1,7 @@
 package collection_test
 
 import (
-	"heavy-go/collection"
+	"github.com/Shanghai-loafer/heavy-go/collection"
 	"reflect"
 	"testing"
 )
